@@ -40,7 +40,7 @@ class FlightScrapController {
         const type = jQuery(value).children('td').eq(2).children('span').eq(0).html()
         const airline = jQuery(value).children('td').eq(3).children('span ').eq(0).children('a').eq(0).html()
          aircrafts.push({
-          aircraft, type, airline
+             aircraft, type, airline
         })
      
        })
